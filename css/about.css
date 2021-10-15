@@ -1,0 +1,28 @@
+#main {
+    height: 50vh;
+    background-color: #222;
+    background-image: url('../img/batman_brooding.jpg');
+    background-repeat: no-repeat;
+    min-height: 300px;
+    position: relative;
+    background-position: 50% 40%;
+    background-attachment: local;
+}
+
+.icon {
+    display: block;
+    color: rgb(44, 44, 44);
+  }
+
+.subheading {
+    color: rgb(44, 44, 44);
+}
+
+.button-link {
+    color: white;
+    transition: 0.3s ease;
+}
+
+.button-link:hover {
+    color: orange;
+}
