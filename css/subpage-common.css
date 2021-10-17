@@ -1,0 +1,26 @@
+#main {
+    height: 50vh;
+    background-color: #222;
+    background-image: url('../img/black-abstract-smaller2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    position: relative;
+    background-position: relative;
+    background-attachment: fixed;
+}
+
+.title {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-shadow: 3px 3px 3px black;
+    font-size: 4rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
