@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information for the browser -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The title -->
     <title>Buy Tickets</title>
+
+    <!-- Links to CSS sheets -->
     <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/common.css" />
@@ -12,16 +17,23 @@
     <link rel="stylesheet" href="css/subpage-common.css" />
 </head>
 <body>
+    <!-- Main half page spread, containing navbar and title -->
     <section id="main" class="text-white tm-font-big tm-parallax">
+
+        <!-- The navbar -->
 		<nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
-			<div class="container">   
+			<div class="container">
+                <!-- Title of the project, linking to homepage -->  
 				<div class="tm-next">
-					<a href="index.html" class="navbar-brand">The Dark Knight Rises</a>
+					<a href="index.html" class="navbar-brand">The Dark Knight</a>
 				</div>             
-					
+				
+                <!-- This button is a collapser for mobile devices. Hidden initially -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars navbar-toggler-icon"></i>
 				</button>
+
+                <!--  An unordered list with various navigation links to different pages -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -41,25 +53,37 @@
 			</div>
 		</nav>
 
+        <!-- Title of the page, styled to be in center of spread -->
         <div class="title">
             <h1>TICKETS</h1>
         </div>
     </section>
 
-    <section id="cinemas" class="tm-font-big" style="margin: 100px 10vw;">  <!--IS THIS OK FOR INLINE STYLE?? -->
+    <!-- Section containing all cinemas at which tickets are available -->
+    <section id="cinemas" class="tm-font-big" style="margin: 100px 10vw;">  <!-- !IS THIS OK FOR INLINE STYLE?? -->
+        <!-- General information about cinemas -->
         <div>
             <p class="mb-4 tm-intro-text mt-2">
                 The Dark Knight is releasing on  16 July 2008, and being shown at cinemas worldwide. It is screening at the following locations near you.
                 Get your tickets before it is too late!
             </p>
         </div>
+
+        <!-- Dividing div -->
         <div style="height: 50px"></div>
+
+        <!-- Centering the cinema list -->
         <div class="d-flex justify-content-center">
+            <!-- Unordered list of all cinemas which are screening the movie. It is styled to be a scalable grid -->
             <ul class="cinema-list">
+                <!-- Each li item contains an image and cinema information to its side. This is repeated for all li items below -->
                 <li class="d-flex">
+                    <!-- Image showing how cinema looks -->
                     <img src="img/rockhampton-cinema.jfif" class="cinema-img mr-5 mb-1 mt-1"/>
                     <div class="d-flex flex-column justify-content-between">
+                        <!-- Name of cinema -->
                         <h3><strong>Rockhampton Cinema</strong></h3>
+                        <!-- Details of cinema -->
                         <div>
                             <h4><strong>Ticket Price:</strong> $20.00</h4>
                             <h4><strong>Earliest Screening Time:</strong> 20 July 2008</h4>
@@ -126,12 +150,14 @@
         </div>
     </section>
     
+    <!-- Footer containing publishing information -->
     <section id="footer">
 		<div class="d-flex justify-content-center">
 			<footer style="padding-bottom: 10px;">Joel Yoffe BHHS Highschool Project 2021</footer>
 		</div>	
 	</section>
 
+    <!-- Page scripts -->
     <script src="js/scroll.js"></script>
 </body>
 </html>

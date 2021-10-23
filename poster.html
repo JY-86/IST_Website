@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Meta information for the browser -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- The title -->
     <title>About</title>
-    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+
+	<!-- Links to CSS stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/poster.css" />
     <link rel="stylesheet" href="css/subpage-common.css" />
 </head>
 <body>
+	<!-- Main half page spread, containing navbar and title -->
     <section id="main" class="text-white tm-font-big tm-parallax">
+
+		<!-- The navbar -->
 		<nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
-			<div class="container">   
+			<div class="container"> 
+				<!-- Title of the project, linking to homepage -->  
 				<div class="tm-next">
 					<a href="index.html" class="navbar-brand">The Dark Knight</a>
 				</div>             
-					
+				
+				<!-- This button is a collapser for mobile devices. Hidden initially -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars navbar-toggler-icon"></i>
 				</button>
+
+				<!--  An unordered list with various navigation links to different pages -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -40,29 +51,33 @@
 				</div>        
 			</div>
 		</nav>
-
+		
+		<!-- Title of the page, styled to be in center of spread -->
         <div class="title">
             <h1>POSTER</h1>
         </div>
     </section>
+
+	<!-- Section containing the poster and prelude about it. -->
     <section id="poster" class="tm-font-big" style="margin: 100px 10vw;">
 		<div class="mb-5 d-flex justify-content-center">
 			Take an exclusive look at the new Dark Knight promotional poster, created by the fine team of design students at the BHHS Production Company.
 		</div>
+		<!-- The poster, justified to the center. The poster is heavily styled with inline CSS -->
 		<div style="display: flex; justify-content: center;">
-			<img class="poster-img" src="img/poster.jpg" style="height: 100vh; width: auto; border-radius: 6px; box-shadow: 5px 5px 10px;"/>
+			<img class="poster-img" src="img/poster.jpg" style="height: 90vh; width: auto; border-radius: 6px; box-shadow: 5px 5px 10px;"/>
 		</div>
     </section>
     
         
-
+	<!-- Page footer with publishing information -->
     <section id="footer">
 		<div class="d-flex justify-content-center">
 			<footer style="padding-bottom: 10px;">Joel Yoffe BHHS Highschool Project 2021</footer>
 		</div>	
 	</section>
 
-    <script src="js/parallax.js"></script>
+	<!-- Page scripts -->
     <script src="js/scroll.js"></script>
 </body>
 </html>

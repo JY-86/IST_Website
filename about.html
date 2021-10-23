@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information for the browser -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The title -->
     <title>About</title>
+
+    <!-- Links to CSS sheets -->
     <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/common.css" />
@@ -12,16 +17,23 @@
     <link rel="stylesheet" href="css/subpage-common.css" />
 </head>
 <body>
+    <!-- Main half page spread, containing navbar and title -->
     <section id="main" class="text-white tm-font-big tm-parallax">
+
+        <!-- The navbar -->
 		<nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
 			<div class="container">   
+                <!-- Title of the project, linking to homepage -->  
 				<div class="tm-next">
-					<a href="index.html" class="navbar-brand">The Dark Knight Rises</a>
+					<a href="index.html" class="navbar-brand">The Dark Knight</a>
 				</div>             
-					
+				
+                <!-- This button is a collapser for mobile devices. Hidden initially -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars navbar-toggler-icon"></i>
 				</button>
+
+                <!--  An unordered list with various navigation links to different pages -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -41,21 +53,32 @@
 			</div>
 		</nav>
 
+        <!-- Title of the page, styled to be in center of spread -->
         <div class="title">
             <h1>ABOUT</h1>
         </div>
     </section>
+
+    <!-- Section containing information about the movie trailer -->
     <section id="about-info" class="tm-font-big" style="margin: 100px 10vw;">
+
+        <!-- Introductory general information about the trailer -->
         <div>
             <p class="mb-4 tm-intro-text">
                 Join Batman once again as he faces a threat bigger than anything which has ever plagued Gotham City. Batman has defeated skilled criminals before, but the Joker is the new face on the block who is testing everything that Batman is capable of. A violent, psychopathic murderer, the Joker will stop at nothing to see his cloaked arch-nemesis lying face down in the dirt. Not only is Gotham City in dire need of a saviour, but the Joker has captured those Batman holds most dear, forcing him to choose between the good of the city and himself. Aided by Comissioner Gordon and Harvey Dent, Batman must overcome his inner demons and restore order to Gotham City. 
             </p>
         </div>
+
+        <!-- Separating div -->
         <div style="height: 50px"></div>
+
+        <!-- First row of information boxes -->
         <div class="row tm-content-box">
+            <!-- An icon from Font Awesome representing batman -->
             <div class="col-lg-1">
                 <i class="fas fa-3x fa-bold text-center icon"></i>
             </div>
+            <!-- Information about batman -->
             <div class="col-lg-5">
                 <div class="tm-intro-text-container">
                     <h2 class="subheading mb-4">Batman</h2>
@@ -68,9 +91,11 @@
                 </div>
             </div>
             
+            <!-- An icon from Font Awesome representing the joker -->
             <div class="col-lg-1">
                 <i class="fas fa-3x fa-bomb text-center icon"></i>
             </div>
+            <!-- Information about the joker -->
             <div class="col-lg-5">
                 <div class="tm-intro-text-container">
                     <h2 class="subheading mb-4">The Joker</h2>
@@ -84,10 +109,13 @@
             </div>
         </div>
         
+        <!-- Second row of information boxes -->
         <div class="row tm-content-box">
+            <!-- An icon from Font Awesome representing commissioner gordon -->
             <div class="col-lg-1">
                 <i class="fas fa-3x fa-bullhorn text-center icon"></i>
             </div>
+            <!-- Information about commissioner gordon -->
             <div class="col-lg-5">
                 <div class="tm-intro-text-container">
                     <h2 class="subheading mb-4">Commissioner Gordon</h2>
@@ -99,14 +127,16 @@
                     </p>
                 </div>
             </div>
+
+            <!-- An icon from Font Awesome representing harvey dent -->
             <div class="col-lg-1">
                 <i class="fas fa-adjust fa-3x text-center icon"></i>
             </div>
+            <!-- Information about harvey dent -->
             <div class="col-lg-5">
                 <div class="tm-intro-text-container">
                     <h2 class="subheading mb-4">Harvey Dent</h2>
                     <p class="mb-4 tm-intro-text">
-                        
                         A prominent and well-educated District Attorney, Harvey Dent fights valiantly to uphold the law and make the city a better place. 
                         However, the twisted and rotten underbelly of Gotham City is too widespread to be exposed by one man, and Harvey Dent finds himself
                         becoming a victim to everything he sought to destroy, and the embodiement of all that he fought against.
@@ -116,6 +146,7 @@
         </div>
     </section>
 
+    <!-- A button calling viewer to action to buy tickets. The button is styled extensively with inline CSS -->
     <div style="color: white; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; box-sizing: border-box;">
         <a class="button-link" href="tickets.html">
             <div style="background-color: rgb(44, 44, 44); padding: 30px; border-radius: 10px; border: 0px; margin: 100px 0px 200px 0px; box-sizing: border-box;">
@@ -125,14 +156,14 @@
     </div>
     
         
-
+    <!-- Footer containing publishing information -->
     <section id="footer">
 		<div class="d-flex justify-content-center">
 			<footer style="padding-bottom: 10px;">Joel Yoffe BHHS Highschool Project 2021</footer>
 		</div>	
 	</section>
 
-    <script src="js/parallax.js"></script>
+    <!-- Page scripts -->
     <script src="js/scroll.js"></script>
 </body>
 </html>

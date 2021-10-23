@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Meta information for the browser -->
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	<!-- Title -->
 	<title>The Dark Knight Rises</title>
+
+	<!-- Links to CSS sheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/common.css" />
 </head>
-<body>    
-	<section id="infinite" class="text-white tm-font-big tm-parallax">
+<body>
+	<!-- The front page spread with logo, title and navbar-->    
+	<section id="infinite" class="text-white tm-font-big tm-parallax"> 
+		<!-- The navbar -->
 		<nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
-			<div class="container">   
+			<div class="container">
+				<!-- Title of the project, linking to homepage -->
 				<div class="tm-next">
 					<a href="index.html" class="navbar-brand">The Dark Knight</a>
 				</div>             
-					
+				
+				<!-- This button is a collapser for mobile devices. Hidden initially -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars navbar-toggler-icon"></i>
 				</button>
+
+				<!--  An unordered list with various navigation links to different pages -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -38,6 +49,7 @@
 			</div>
 		</nav>
 		
+		<!-- The center of the front page spread with the project title. Background image defined as CSS -->
 		<div class="text-center tm-hero-text-container">
 			<div class="tm-hero-text-container-inner">
 				<h2 class="tm-hero-title">The Dark Knight</h2>
@@ -46,21 +58,27 @@
 		</div>     
 	</section>
 
+	<!-- The information section of the front page, with the film trailer and some general notes -->
 	<section id="whatwedo" class="tm-section-pad-top">		
 		<div class="container">
-			<div class="row tm-content-box"><!-- first row -->
+			<div class="row tm-content-box">
 				<div class="col-lg-12 col-xl-12">
 					<div class="tm-intro-text-container">
+						<!-- Title of the section, adjusted to center of screen -->
 						<h2 class="tm-text-primary mb-4 tm-section-title d-flex justify-content-center">The Dark Knight - Releasing Soon</h2>
+						
+						<!-- Information -->
 						<p class="mb-4 tm-intro-text">
 							Follow the mysterious and aloof Bruce Wayne <i>(Christian Bale)</i> as he teams up with Liutenant Jim Gordon <i>(Gary Oldman)</i> 
 							and Harvey Dent <i>(Aaron Eckhart)</i> under his alter ego Batman. Together, the trio has been able to shut down crime in Gotham City. 
 							But when a vile criminal going under the pseudonym 'The Joker' begins to throw the town into chaos, Batman must choose 
 							between the things he holds most dear and the future of Gotham city. 
-							<br><br>
+							<br><br> <!-- line breaks space out the text -->
 							The Dark Knight is the next big production by legendary director Christopher Nolan. Don't miss out on your <a href="tickets.html">tickets</a>!
 						</p>
 						<br>
+
+						<!-- The trailer. The video is styled with inline styles -->
 						<div width="100%" class="d-flex justify-content-center ">
 							<video controls style="width: 75%; min-height: 300px; box-shadow: 5px 10px 10px; border-radius: 15px;" >
 								<source src="The Dark Knight Trailer.mp4" type="video/mp4"> 
@@ -70,22 +88,19 @@
 						<p></p>
 					</div>
 				</div>
-			</div><!-- first row -->
+			</div>
 		</div>
 	</section>
 	
+	<!-- Page footer with publishing information -->
 	<section id="footer">
 		<div class="d-flex justify-content-center">
 			<footer style="padding-bottom: 10px;">Joel Yoffe BHHS Highschool Project 2021</footer>
 		</div>	
 	</section>
 	
+	<!-- Page scripts -->
 	<script src="js/scroll.js"></script>
-	<script src="js/jquery-1.9.1.min.js"></script>     
-	<!-- <script src="slick/slick.min.js"></script> -->
-	<!-- <script src="magnific-popup/jquery.magnific-popup.min.js"></script> -->
-	<script src="js/easing.min.js"></script>
 	<script src="js/bootstrap.min.js"></script> 
-	<!-- <script src="js/parallax.js"></script> -->
 </body>
 </html>
