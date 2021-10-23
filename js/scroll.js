@@ -2,7 +2,7 @@ var navbar = document.querySelector('#tmNav');
 
 document.addEventListener('scroll', () => {
     var scroll = getElementScrollScale(document.documentElement)
-    if (scroll < 0.1) {
+    if (scroll <= 0.05) {
         navbar.classList.remove('scroll');
     }
     else {
