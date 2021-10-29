@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
+
+head {
+  font-size: 1.2rem;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
 body {
 	font-family: "Raleway", sans-serif;
 	font-size: 1.2em;
@@ -69,6 +77,10 @@ a:focus {
 
 .tm-navbar.scroll .navbar-brand {
   color: rgb(48, 48, 48);
+}
+.tm-navbar.scroll .minilogo {
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 .nav-item {
@@ -245,7 +257,7 @@ p {
 }
 
 
-/* Footer */
+/* Styling the Footer */
 footer {
   color: grey;
   margin-top: 15px;
